@@ -17,7 +17,8 @@
 </style>
 
 <body>
-
+<!-- TODO: Fix links in Navigation Bar -->
+<!-- TODO: Attempt to Center nav and footer -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Eric Northrop</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,29 +35,17 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li> -->
       </ul>
     </div>
   </nav>
 
-  <!-- <header class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">Eric Northrop</a>
-      <nav class="navbar-nav">
-        <a class="navbar-item" href="index.html">About</a>
-        <a class="navbar-item" href="portfolio.html">Portfolio</a>
-        <a class="navbar-item" href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header> -->
 
-  <div id="main-container" class="container">
+<!-- TODO: improve padding around image and text -->
+  <div id="main-container" class="container-fluid">
     <section class="main-section">
       <h1>About Me</h1>
 
-      <img src="assets/images/pictarcropped.jpg" class="auth-image" alt="Eric Northrop">
+      <img src="assets/images/pictarcropped.jpg" class="img-fluid rounded float-left" alt="Eric Northrop">
 
       <p>Well hello there internet. My name is Eric Northrop and this is my portfolio site. I am currently learning front end web development and its going alright! CSS is still giving me a little trouble but otherwise I feel pretty good about the program so far.</p>
 
@@ -68,8 +57,8 @@
 
   </div>
 
-  <footer>
-    <div class="container">
+  <footer class="clearfix">
+    <div class="footer navbar-fixed-bottom">
       Copyright &copy; 
     </div>
   </footer>
